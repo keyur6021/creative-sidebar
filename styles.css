@@ -112,7 +112,7 @@ body.open .burger-icon {
 @media (width >=400px) {
   .sidebar {
     translate: 100% 0;
-    width: 180px;
+    width: 240px;
     transition: 0.4s;
     border-left: 1px solid rgba(255, 255, 255, 0.16);
   }
@@ -191,4 +191,13 @@ body.open .sidebar {
   color: #f9f9f9;
   font-size: 11px;
   translate: 0 1px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title-main {
+  text-shadow: 3px 3px 20px #ff99cc,
+    -2px 1px 30px #ff99cc;
 }
